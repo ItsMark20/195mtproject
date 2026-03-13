@@ -1,0 +1,281 @@
+/* css Zen Garden submission 195 - 'Dazzling Beauty', by Deny Sri Supriyono, http://blog.denysri.com/ */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* All associated graphics copyright 2006, Deny Sri Supriyono */
+/* Added: February 15th, 2006 */
+
+
+/* IMPORTANT */
+/* This design is not a template. You may not reproduce it elsewhere without the 
+   designer's written permission. However, feel free to study the CSS and use 
+   techniques you learn from it elsewhere. */
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	background: url(sakura-leaves.gif);
+}
+html {
+	background: url(bg.png);
+}
+body {
+	margin: 0;
+	padding: 0; 
+	font: normal 0.7em/1.4em Tahoma, Verdana, Arial, Georgia, sans-serif; 
+	color: #000000;
+	text-align: center;
+	background: transparent url(bodybg.png) no-repeat center top;
+}
+
+.page-wrapper {
+	margin: 0px auto;
+	padding: 0;
+	padding-bottom: 2;
+	width: 780px;
+	border: none;
+	text-align: left;
+	background-image: url(footerbg3.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 70px;
+}
+
+header,
+.preamble h3,
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3,
+.design-selection h3,
+.design-archives h3,
+.zen-resources h3 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.summary p:first-child,
+.extra3,
+.extra4,
+.extra5,
+.extra6 {
+	display:none;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #ff00b7;
+	border-bottom: 1px dotted #ccc;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff00b7;
+	border-bottom: 1px solid #ccc;
+}
+
+abbr {
+	text-decoration: none;
+	color: #ff00b7;
+	border-bottom: 1px dotted #ccc;
+	cursor: help;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.summary p:last-child {
+	padding-top: 220px;
+	margin-left: 365px;
+	font: normal 0.9em/0.9em Arial, Tahoma, Georgia, sans-serif;
+	letter-spacing: -1px;
+	color: #ffffff;
+	text-transform: uppercase;
+	width: 220px;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.sidebar{
+	position: absolute;
+	left:auto; 
+	right:auto; 
+	top: 385px;
+	margin-left: 420px;
+	width: 196px;
+	/* background-image: url(bgsidebar.jpg);
+	background-repeat: no-repeat;
+	background-position: left top; */
+	padding: 8px;
+	border:solid black;
+}
+
+.sidebar .wrapper{
+	padding: 0;
+	margin: 0;
+	background-image: url(extraflower.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 250px;
+	background-size: 200px 200px;
+	
+}
+
+.sidebar ul {
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul li{
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	border-bottom: 1px solid #ECEFD7;
+}
+
+.sidebar ul li a, .sidebar ul li a:visited {
+	border-bottom: none;
+}
+
+.sidebar ul li a:hover {
+	color: blue;
+}
+
+.design-selection {
+	font-size: 0.9em; 
+}
+
+.design-selection ul li {
+	background: transparent url(moon.png) no-repeat 0% 25%;
+	padding: 3px 0 3px 25px;
+	background-size: 20px 20px;
+}
+
+.design-selection a {
+	display: block;
+	font-size: 1.1em;
+	color: #ff00b7;
+}
+
+.design-selection a.designer-name {
+	display:inline;
+	line-height:5px;
+	margin:0;
+	padding:0;
+	font: normal 1.0em/0.9em Verdana, Arial, Tahoma, sans-serif;
+	color: #d400ff;
+	letter-spacing: -1px;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements{
+	top: 150px;
+	position: relative;
+	left: 63px;
+	color: #000000;
+	width: 340px;
+	padding-bottom: 29px;
+	text-align: justify;
+}
+
+.preamble h3 {
+	background-image: url(theroadto.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 38px;
+	position: relative;
+	top: -25px;
+}
+
+.explanation h3 {
+	background-image: url(sowhat.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 38px;
+	position: relative;
+	top: -20px;
+}
+
+.participation h3 {
+	background-image: url(participation.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 38px;
+	position: relative;
+	top: -20px;
+}
+
+.benefits h3 {
+	background-image: url(benefits.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 38px;
+	position: relative;
+	top: -20px;
+}
+
+.requirements h3 {
+	background-image: url(requirements.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 38px;
+	position: relative;
+	top: -20px;
+}
+
+.design-selection, .design-archives {
+	margin-bottom: 20px;
+}
+
+.design-selection h3 {
+	background-image: url(selectadesign.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 196px;
+	height: 40px;
+}
+
+.design-archives h3 {
+	background-image: url(archives.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 196px;
+	height: 40px;
+}
+
+.zen-resources h3 {
+	background-image: url(resources.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 196px;
+	height: 40px;
+}
+
+footer{
+	text-align: left;
+	padding-left: 63px;
+	padding-top: 140px;
+}
+
+footer a, footer a:visited {
+	padding: 5px;
+	border: 1px solid #f4f4f4;
+	background-color: #fff;
+}
+
+footer a:hover {
+	padding: 20px;
+	border: 1px solid #993300;
+	background-color: #D94904;
+	color: #fff;
+}
+
+.extra1, .extra2, .extra3, .extra4, .extra5, .extra6 { display:none }
